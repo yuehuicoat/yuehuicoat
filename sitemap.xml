@@ -31,13 +31,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yuehuicoat.com/legal/privacy.html</loc>
+    <loc>https://yuehuicoat.com/legal/privacy/</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://yuehuicoat.com/legal/terms.html</loc>
+    <loc>https://yuehuicoat.com/legal/terms/</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
