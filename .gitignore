@@ -20,3 +20,7 @@ yarn-error.log*
 .env
 .env.local
 .env.*.local
+
+# Test scratch files
+_test_utf8*
+
