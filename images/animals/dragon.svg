@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" aria-label="Friendly dragon operations mascot">
+  <defs>
+    <linearGradient id="drag-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3aa67a"/>
+      <stop offset="100%" stop-color="#1f6e54"/>
+    </linearGradient>
+  </defs>
+  <!-- body curl -->
+  <path d="M50 160 C 30 120, 60 80, 110 90 C 160 100, 180 60, 160 30" stroke="url(#drag-body)" stroke-width="34" fill="none" stroke-linecap="round"/>
+  <path d="M50 160 C 30 120, 60 80, 110 90 C 160 100, 180 60, 160 30" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="0 8 6 12" opacity="0.4"/>
+  <!-- belly -->
+  <ellipse cx="92" cy="138" rx="22" ry="12" fill="#f4e4c4" transform="rotate(-20 92 138)"/>
+  <!-- head -->
+  <g transform="translate(160 30) rotate(20)">
+    <ellipse cx="0" cy="0" rx="22" ry="18" fill="url(#drag-body)"/>
+    <ellipse cx="6" cy="6" rx="14" ry="10" fill="#f4e4c4"/>
+    <!-- horns -->
+    <path d="M-12 -14 L -22 -28 L -6 -16 Z" fill="#d4a857"/>
+    <path d="M4 -16 L 0 -32 L 14 -16 Z" fill="#d4a857"/>
+    <!-- eyes -->
+    <circle cx="6" cy="2" r="3" fill="#fff"/>
+    <circle cx="6" cy="2" r="1.4" fill="#1a1a1a"/>
+    <ellipse cx="14" cy="-2" rx="3" ry="2" fill="#fff"/>
+    <ellipse cx="14" cy="-2" rx="1.2" ry="0.8" fill="#1a1a1a"/>
+    <!-- smile -->
+    <path d="M2 8 Q 10 14 16 8" stroke="#1a1a1a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <!-- whiskers -->
+    <path d="M2 6 L -8 0" stroke="#1a1a1a" stroke-width="0.6" stroke-linecap="round"/>
+    <path d="M2 8 L -10 8" stroke="#1a1a1a" stroke-width="0.6" stroke-linecap="round"/>
+    <path d="M16 6 L 26 0" stroke="#1a1a1a" stroke-width="0.6" stroke-linecap="round"/>
+    <path d="M16 8 L 28 8" stroke="#1a1a1a" stroke-width="0.6" stroke-linecap="round"/>
+  </g>
+  <!-- tail flame -->
+  <path d="M40 168 C 32 178, 30 184, 24 178 C 28 188, 22 196, 16 192 C 22 200, 30 198, 36 190 C 40 184, 44 180, 48 174 Z" fill="#d4a857"/>
+  <path d="M44 172 C 40 178, 38 184, 34 180 C 36 188, 32 192, 30 188 C 34 192, 38 188, 42 184 C 46 180, 48 176, 50 172 Z" fill="#e8c47a"/>
+</svg>

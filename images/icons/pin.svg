@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>Address</title>
+  <path d="M16 29 C 9 20, 5 15, 5 11 A 11 11 0 0 1 27 11 C 27 15, 23 20, 16 29 Z"/>
+  <circle cx="16" cy="11" r="4"/>
+</svg>

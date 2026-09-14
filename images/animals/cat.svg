@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" aria-label="Cute cat mascot">
+  <defs>
+    <radialGradient id="cat-grad" cx="0.4" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#f5d6a4"/>
+      <stop offset="100%" stop-color="#c99560"/>
+    </radialGradient>
+  </defs>
+  <!-- tail curving -->
+  <path d="M150 160 C 175 150, 180 120, 168 100" stroke="#c99560" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M150 160 C 175 150, 180 120, 168 100" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="0 30 8 18" opacity="0.4"/>
+  <!-- body -->
+  <ellipse cx="100" cy="140" rx="48" ry="42" fill="url(#cat-grad)"/>
+  <ellipse cx="100" cy="148" rx="26" ry="26" fill="#f5e6c8"/>
+  <!-- legs -->
+  <ellipse cx="78" cy="180" rx="12" ry="8" fill="url(#cat-grad)"/>
+  <ellipse cx="122" cy="180" rx="12" ry="8" fill="url(#cat-grad)"/>
+  <!-- head -->
+  <circle cx="100" cy="80" r="44" fill="url(#cat-grad)"/>
+  <!-- ears -->
+  <path d="M62 60 L 64 28 L 88 54 Z" fill="url(#cat-grad)"/>
+  <path d="M64 32 L 86 52" stroke="#f08aa3" stroke-width="3" stroke-linecap="round"/>
+  <path d="M138 60 L 136 28 L 112 54 Z" fill="url(#cat-grad)"/>
+  <path d="M136 32 L 114 52" stroke="#f08aa3" stroke-width="3" stroke-linecap="round"/>
+  <!-- face -->
+  <ellipse cx="88" cy="78" rx="5" ry="7" fill="#2a4a2a"/>
+  <ellipse cx="112" cy="78" rx="5" ry="7" fill="#2a4a2a"/>
+  <ellipse cx="90" cy="76" rx="1.4" ry="2" fill="#fff"/>
+  <ellipse cx="114" cy="76" rx="1.4" ry="2" fill="#fff"/>
+  <!-- nose -->
+  <path d="M96 92 L 104 92 L 100 98 Z" fill="#d96b6b"/>
+  <path d="M100 98 L 100 102" stroke="#5a3a2a" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M100 102 Q 92 108 88 104" stroke="#5a3a2a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  <path d="M100 102 Q 108 108 112 104" stroke="#5a3a2a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  <!-- whiskers -->
+  <path d="M76 96 L 58 92" stroke="#5a3a2a" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M76 100 L 58 102" stroke="#5a3a2a" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M124 96 L 142 92" stroke="#5a3a2a" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M124 100 L 142 102" stroke="#5a3a2a" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <circle cx="74" cy="98" r="3.5" fill="#f4a3b3" opacity="0.6"/>
+  <circle cx="126" cy="98" r="3.5" fill="#f4a3b3" opacity="0.6"/>
+  <!-- tiny wrench icon hovering -->
+  <g transform="translate(150 30) rotate(20)" stroke="#d4a857" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="0" r="6"/>
+    <path d="M0 6 L 0 22"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+User-agent: *
+Allow: /
+Disallow: /legal/privacy.html
+Disallow: /legal/terms.html
+
+# Crawl-delay for politeness (Google ignores, but smaller crawlers may use)
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://yuehuicoat.com/sitemap.xml
+
+# Major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Generative-AI training crawlers — opt out by default
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" aria-label="Cute rabbit logistics helper">
+  <defs>
+    <linearGradient id="rabbit-fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf4e8"/>
+      <stop offset="100%" stop-color="#d8c8b0"/>
+    </linearGradient>
+  </defs>
+  <!-- body -->
+  <ellipse cx="100" cy="138" rx="50" ry="44" fill="url(#rabbit-fur)"/>
+  <ellipse cx="100" cy="146" rx="28" ry="26" fill="#fff"/>
+  <!-- legs -->
+  <ellipse cx="80" cy="180" rx="14" ry="10" fill="url(#rabbit-fur)"/>
+  <ellipse cx="120" cy="180" rx="14" ry="10" fill="url(#rabbit-fur)"/>
+  <!-- arms holding parcel -->
+  <ellipse cx="62" cy="130" rx="10" ry="20" fill="url(#rabbit-fur)" transform="rotate(-25 62 130)"/>
+  <ellipse cx="138" cy="130" rx="10" ry="20" fill="url(#rabbit-fur)" transform="rotate(25 138 130)"/>
+  <!-- parcel -->
+  <rect x="76" y="120" width="48" height="40" rx="3" fill="#c99560"/>
+  <rect x="98" y="120" width="4" height="40" fill="#8a5a2c"/>
+  <rect x="76" y="138" width="48" height="4" fill="#8a5a2c"/>
+  <path d="M88 116 Q 80 108 88 102 Q 96 96 104 102 Q 112 108 104 116" fill="#c99560"/>
+  <!-- head -->
+  <circle cx="100" cy="80" r="40" fill="url(#rabbit-fur)"/>
+  <!-- long ears -->
+  <ellipse cx="80" cy="32" rx="8" ry="28" fill="url(#rabbit-fur)"/>
+  <ellipse cx="120" cy="32" rx="8" ry="28" fill="url(#rabbit-fur)"/>
+  <ellipse cx="80" cy="32" rx="4" ry="20" fill="#f4a3b3"/>
+  <ellipse cx="120" cy="32" rx="4" ry="20" fill="#f4a3b3"/>
+  <!-- eyes -->
+  <ellipse cx="88" cy="78" rx="4" ry="5" fill="#5a3a2a"/>
+  <ellipse cx="112" cy="78" rx="4" ry="5" fill="#5a3a2a"/>
+  <circle cx="89" cy="76" r="1.4" fill="#fff"/>
+  <circle cx="113" cy="76" r="1.4" fill="#fff"/>
+  <!-- nose -->
+  <path d="M96 90 Q 100 94 104 90 Q 100 96 100 96 Q 100 96 96 90 Z" fill="#d96b6b"/>
+  <path d="M100 96 L 100 102" stroke="#5a3a2a" stroke-width="1" stroke-linecap="round"/>
+  <path d="M100 102 Q 94 106 92 102" stroke="#5a3a2a" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <path d="M100 102 Q 106 106 108 102" stroke="#5a3a2a" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <circle cx="78" cy="92" r="3" fill="#f4a3b3" opacity="0.7"/>
+  <circle cx="122" cy="92" r="3" fill="#f4a3b3" opacity="0.7"/>
+</svg>

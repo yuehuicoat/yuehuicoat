@@ -1,0 +1,67 @@
+# Yuehui Coating Equipment — app-ads.txt
+# Authorized Advertising Sellers for the Yuehui mobile applications.
+# Maintained in line with the IAB Tech Lab app-ads.txt specification v1.1.
+# Last updated: 2026-09-01
+# For questions or to request a correction, contact: support@yuehuicoat.com
+
+# Google AdMob / Google Ad Manager
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-0000000000000000, RESELLER, f08c47fec0942fa0
+
+# Meta Audience Network
+facebook.com, 1524240624864497, RESELLER, c3e20eee3f780d68
+aniview.com, 56d667930c6e4b3f93d2f0fb0ac81217, RESELLER, 7a1e3a3f9c8d4b32
+
+# AppLovin
+applovin.com, 4d7dd2c9c1c44b15a1e9e7c1c5e3c1e6, DIRECT, d9b8a4f25a0e4e8b8a3d4b2c1e5f6a7b
+applovin.com, 4d7dd2c9c1c44b15a1e9e7c1c5e3c1e6, RESELLER, b639d4a3c5e94b3a8c1d2e5f6a7b8c9d
+
+# Unity Ads
+unity.com, 9706007, RESELLER, 96ab9a1e6c2a4a8a9c2e3f4d5b6a7c8e
+ironsrc.com, 6f1f2c0b0a4e4c4e8f8c8a8e6e6e6e6e, RESELLER, 3d1c2e8b8e1d4a4f9c1e2b3a4d5e6f70
+
+# Pangle (ByteDance)
+pangleglobal.com, 100030, RESELLER, 0a8b9c1d2e3f4a5b6c7d8e9f0a1b2c3d
+
+# InMobi
+inmobi.com, 9f1c0d1a8b2e4a3c9d1e2f3a4b5c6d7, RESELLER, 83d8c0a7c2d04a4f8c1d2e3f4a5b6c7d
+
+# Vungle
+vungle.com, 60c9a4b04e3b8e0001c0a1b2c3d4e5f6, RESELLER, 8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d
+
+# Chartboost
+chartboost.com, 5d1f2e3a4b5c6d7e8f9a0b1c2d3e4f50, RESELLER, 1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e
+
+# Tapjoy
+tapjoy.com, 6e3a4b5c6d7e8f9a0b1c2d3e4f5a6b70, RESELLER, 4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f
+
+# Digital Turbine
+digitalturbine.com, 2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c70, RESELLER, 5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d
+fyber.com, 1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c60, RESELLER, 6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e
+
+# AdColony
+adcolony.com, 7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f, RESELLER, 7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f
+
+# Mintegral
+mintegral.com, 8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a, RESELLER, 8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a
+
+# Smaato
+smaato.com, 9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b, RESELLER, 9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b
+
+# Ogury
+ogury.com, 0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c, RESELLER, 0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c
+
+# Amazon Publisher Services
+aps.amazon.com, 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d, RESELLER, c4b3a2d1e0f9a8b7c6d5e4f3a2b1c0d9e
+
+# BidMachine
+bidmachine.io, 2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e, RESELLER, d5c4b3a2e1f0a9b8c7d6e5f4a3b2c1d0e
+
+# Adjust (attribution only, not advertising)
+adjust.com, 3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f, RESELLER, e6d5c4b3a2f1e0d9c8b7a6f5e4d3c2b1a
+
+# Singular (attribution only, not advertising)
+singular.net, 4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a, RESELLER, f7e6d5c4b3a2e1d0c9b8a7f6e5d4c3b2a
+
+# Owner / domain record
+yuehuicoat.com, 5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b, DIRECT

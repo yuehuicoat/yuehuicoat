@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" aria-label="Wise owl consultant">
+  <defs>
+    <linearGradient id="owl-feather" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5e3c"/>
+      <stop offset="100%" stop-color="#5b3a22"/>
+    </linearGradient>
+  </defs>
+  <!-- body -->
+  <ellipse cx="100" cy="130" rx="56" ry="58" fill="url(#owl-feather)"/>
+  <ellipse cx="100" cy="142" rx="34" ry="40" fill="#e8c89a"/>
+  <!-- wing patterns -->
+  <path d="M58 120 Q 70 150 56 170" stroke="#3a2418" stroke-width="2" fill="none"/>
+  <path d="M64 110 Q 76 140 62 160" stroke="#3a2418" stroke-width="2" fill="none"/>
+  <path d="M142 120 Q 130 150 144 170" stroke="#3a2418" stroke-width="2" fill="none"/>
+  <path d="M136 110 Q 124 140 138 160" stroke="#3a2418" stroke-width="2" fill="none"/>
+  <!-- head -->
+  <circle cx="100" cy="78" r="48" fill="url(#owl-feather)"/>
+  <!-- ear tufts -->
+  <path d="M64 40 L 60 22 L 78 36 Z" fill="url(#owl-feather)"/>
+  <path d="M136 40 L 140 22 L 122 36 Z" fill="url(#owl-feather)"/>
+  <!-- eye discs -->
+  <circle cx="80" cy="76" r="20" fill="#f4e4c4"/>
+  <circle cx="120" cy="76" r="20" fill="#f4e4c4"/>
+  <circle cx="80" cy="76" r="20" fill="none" stroke="#3a2418" stroke-width="2"/>
+  <circle cx="120" cy="76" r="20" fill="none" stroke="#3a2418" stroke-width="2"/>
+  <!-- eyes -->
+  <circle cx="80" cy="76" r="10" fill="#2ec4b6"/>
+  <circle cx="120" cy="76" r="10" fill="#2ec4b6"/>
+  <circle cx="80" cy="76" r="5" fill="#1a1a1a"/>
+  <circle cx="120" cy="76" r="5" fill="#1a1a1a"/>
+  <circle cx="82" cy="74" r="1.6" fill="#fff"/>
+  <circle cx="122" cy="74" r="1.6" fill="#fff"/>
+  <!-- beak -->
+  <path d="M92 96 L 108 96 L 100 112 Z" fill="#d4a857"/>
+  <!-- feet -->
+  <path d="M82 180 L 76 188 M 82 180 L 82 188 M 82 180 L 88 188" stroke="#d4a857" stroke-width="3" stroke-linecap="round"/>
+  <path d="M118 180 L 112 188 M 118 180 L 118 188 M 118 180 L 124 188" stroke="#d4a857" stroke-width="3" stroke-linecap="round"/>
+  <!-- graduation cap -->
+  <rect x="68" y="34" width="64" height="8" fill="#1a1a1a"/>
+  <path d="M64 38 L 100 22 L 136 38 Z" fill="#1a1a1a"/>
+  <path d="M134 36 L 134 50 Q 130 54 124 50" stroke="#d4a857" stroke-width="2" fill="none"/>
+  <circle cx="124" cy="52" r="3" fill="#d4a857"/>
+</svg>

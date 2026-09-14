@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" aria-label="Cute panda engineer">
+  <defs>
+    <radialGradient id="panda-fur" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e8e4dc"/>
+    </radialGradient>
+  </defs>
+  <!-- body -->
+  <ellipse cx="100" cy="140" rx="52" ry="44" fill="#1a1a1a"/>
+  <ellipse cx="100" cy="146" rx="36" ry="32" fill="url(#panda-fur)"/>
+  <!-- legs -->
+  <ellipse cx="80" cy="178" rx="14" ry="10" fill="#1a1a1a"/>
+  <ellipse cx="120" cy="178" rx="14" ry="10" fill="#1a1a1a"/>
+  <ellipse cx="80" cy="178" rx="6" ry="4" fill="#3a3a3a"/>
+  <ellipse cx="120" cy="178" rx="6" ry="4" fill="#3a3a3a"/>
+  <!-- arms -->
+  <ellipse cx="58" cy="140" rx="10" ry="22" fill="#1a1a1a" transform="rotate(-15 58 140)"/>
+  <ellipse cx="142" cy="140" rx="10" ry="22" fill="#1a1a1a" transform="rotate(15 142 140)"/>
+  <!-- head -->
+  <circle cx="100" cy="80" r="46" fill="url(#panda-fur)"/>
+  <!-- ears -->
+  <circle cx="64" cy="50" r="14" fill="#1a1a1a"/>
+  <circle cx="136" cy="50" r="14" fill="#1a1a1a"/>
+  <circle cx="64" cy="50" r="6" fill="#d4a857"/>
+  <circle cx="136" cy="50" r="6" fill="#d4a857"/>
+  <!-- eye patches -->
+  <ellipse cx="84" cy="78" rx="10" ry="14" fill="#1a1a1a" transform="rotate(-15 84 78)"/>
+  <ellipse cx="116" cy="78" rx="10" ry="14" fill="#1a1a1a" transform="rotate(15 116 78)"/>
+  <!-- eyes -->
+  <circle cx="84" cy="80" r="3" fill="#fff"/>
+  <circle cx="116" cy="80" r="3" fill="#fff"/>
+  <circle cx="84" cy="80" r="1.6" fill="#1a1a1a"/>
+  <circle cx="116" cy="80" r="1.6" fill="#1a1a1a"/>
+  <!-- nose -->
+  <path d="M96 96 Q 100 100 104 96 Q 100 102 100 102 Q 100 102 96 96 Z" fill="#1a1a1a"/>
+  <path d="M100 102 L 100 110" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M100 110 Q 94 114 90 110" stroke="#1a1a1a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M100 110 Q 106 114 110 110" stroke="#1a1a1a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- hard hat -->
+  <path d="M62 56 Q 100 32 138 56 L 138 60 L 62 60 Z" fill="#d4a857"/>
+  <rect x="58" y="58" width="84" height="6" rx="2" fill="#e8c47a"/>
+  <rect x="92" y="42" width="16" height="14" rx="2" fill="#d4a857"/>
+  <!-- little wrench in hand -->
+  <g transform="translate(150 138) rotate(30)" stroke="#d4a857" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 0 a6 6 0 1 0 0 0.1"/>
+    <path d="M0 6 L 14 6"/>
+  </g>
+</svg>

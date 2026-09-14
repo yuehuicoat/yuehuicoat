@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" aria-label="Friendly fox mascot">
+  <defs>
+    <linearGradient id="fox-fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8a23a"/>
+      <stop offset="100%" stop-color="#c97826"/>
+    </linearGradient>
+    <linearGradient id="fox-belly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff5e6"/>
+      <stop offset="100%" stop-color="#f4d9b3"/>
+    </linearGradient>
+  </defs>
+  <!-- tail -->
+  <path d="M150 150 C 175 145, 188 130, 182 108 C 178 95, 168 96, 162 108 C 158 116, 152 122, 145 130 Z" fill="url(#fox-fur)"/>
+  <path d="M168 110 C 178 108, 184 116, 178 122 C 172 124, 164 120, 162 114 Z" fill="#fff5e6"/>
+  <!-- body -->
+  <ellipse cx="100" cy="130" rx="55" ry="48" fill="url(#fox-fur)"/>
+  <ellipse cx="100" cy="138" rx="34" ry="32" fill="url(#fox-belly)"/>
+  <!-- legs -->
+  <rect x="70" y="158" width="14" height="28" rx="6" fill="url(#fox-fur)"/>
+  <rect x="116" y="158" width="14" height="28" rx="6" fill="url(#fox-fur)"/>
+  <ellipse cx="77" cy="186" rx="10" ry="5" fill="#3a2418"/>
+  <ellipse cx="123" cy="186" rx="10" ry="5" fill="#3a2418"/>
+  <!-- head -->
+  <circle cx="100" cy="78" r="42" fill="url(#fox-fur)"/>
+  <!-- face white -->
+  <path d="M100 70 C 86 80, 80 95, 82 110 C 92 116, 108 116, 118 110 C 120 95, 114 80, 100 70 Z" fill="url(#fox-belly)"/>
+  <!-- ears -->
+  <path d="M62 56 L 70 30 L 88 50 Z" fill="url(#fox-fur)"/>
+  <path d="M138 56 L 130 30 L 112 50 Z" fill="url(#fox-fur)"/>
+  <path d="M70 44 L 76 34 L 84 46 Z" fill="#3a2418" opacity="0.6"/>
+  <path d="M130 44 L 124 34 L 116 46 Z" fill="#3a2418" opacity="0.6"/>
+  <!-- eyes -->
+  <ellipse cx="86" cy="78" rx="5" ry="6" fill="#1a1a1a"/>
+  <ellipse cx="114" cy="78" rx="5" ry="6" fill="#1a1a1a"/>
+  <circle cx="88" cy="76" r="1.6" fill="#fff"/>
+  <circle cx="116" cy="76" r="1.6" fill="#fff"/>
+  <!-- nose & mouth -->
+  <path d="M96 92 Q 100 96 104 92 Q 102 99 100 99 Q 98 99 96 92 Z" fill="#1a1a1a"/>
+  <path d="M100 99 L 100 105" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M100 105 Q 92 110 88 106" stroke="#1a1a1a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M100 105 Q 108 110 112 106" stroke="#1a1a1a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <circle cx="76" cy="94" r="4" fill="#f08aa3" opacity="0.5"/>
+  <circle cx="124" cy="94" r="4" fill="#f08aa3" opacity="0.5"/>
+  <!-- holding a paint brush -->
+  <g transform="rotate(-20 130 130)">
+    <rect x="125" y="120" width="8" height="30" rx="2" fill="#8a5a2c"/>
+    <rect x="123" y="146" width="12" height="6" rx="1" fill="#d4a857"/>
+    <path d="M122 152 L 129 152 L 132 168 L 119 168 Z" fill="#2ec4b6"/>
+  </g>
+</svg>
